@@ -4,7 +4,6 @@ metadata:
   name: nginx
   namespace: flux-system
 spec:
-  releaseName: nginx
   chart:
     spec:
       chart: nginx
@@ -13,3 +12,4 @@ spec:
         name: nginx
         namespace: flux-system
   interval: 20s
+  releaseName: nginx
