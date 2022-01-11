@@ -11,5 +11,5 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: flux-system
-  interval: 20s
+  interval: 1m0s
   releaseName: nginx
