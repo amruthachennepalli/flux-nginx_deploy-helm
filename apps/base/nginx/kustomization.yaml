@@ -4,8 +4,8 @@ metadata:
   name: nginx
   namespace: flux-system
 resources:
-  - namespace.yaml
   - bitnami-repo.yaml
+  - namespace.yaml
   - release.yaml
 
 
