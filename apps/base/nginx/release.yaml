@@ -9,7 +9,7 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: nginx
+        name: bitnami
         namespace: flux-system
   interval: 20s
   releaseName: nginx
