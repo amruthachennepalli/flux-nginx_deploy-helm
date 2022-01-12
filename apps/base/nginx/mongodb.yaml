@@ -4,6 +4,10 @@ metadata:
   name: mongodb
   namespace: flux-system
 spec:
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
   chart:
     spec:
       chart: mongodb
